@@ -1,0 +1,51 @@
+# Proyecto de Automatización de Pruebas API
+
+Este proyecto contiene pruebas automatizadas para validar la API de JSONPlaceholder, enfocadas en los endpoints de posts.
+
+## ¿Qué incluye?
+
+- Pruebas para obtener un post específico
+- Pruebas para obtener todos los posts
+- Prueba para crear un nuevo post
+- Generación de reporte HTML de resultados
+
+## Tecnologías utilizadas
+
+- Python
+- pytest
+- requests
+- pytest-check
+- pytest-html
+
+## Requisitos
+
+Tener Python 3 instalado y las dependencias del proyecto.
+
+## Instalación
+
+Ejecuta el siguiente comando en la raíz del proyecto:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Ejecución de pruebas
+
+Para ejecutar todas las pruebas:
+
+```bash
+pytest -v
+```
+
+Para generar el reporte HTML:
+
+```bash
+pytest --html=reports/report.html
+```
+
+## Estructura del proyecto
+
+- tests/: contiene las pruebas automatizadas
+- pages/: contiene la lógica para interactuar con la API
+- utils/: utilidades generales como logging
+- reports/: reportes generados
