@@ -20,3 +20,7 @@ class PostAPIPage:
         }
         response = requests.post(self.URL, json=data)
         return response
+    
+    def delete_post(self, post_id):
+        response = requests.delete(f"{self.URL}/{post_id}")
+        return response

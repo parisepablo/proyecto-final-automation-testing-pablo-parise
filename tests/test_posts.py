@@ -42,3 +42,11 @@ def test_create_post(post_data):
     check.is_true(
         isinstance(created_post, dict), "Expected response to be a dictionary"
     )
+
+def test_delete_post():
+    app_logger.info("Starting delete post test")
+    post_id = 1
+    response = api.delete_post(post_id)
+    app_logger.info(f"Response for deleting post {post_id}: {response.status_code}")
+    #validates the response status code
+    check.equal(response.status_code, 200, f"Expected code 200 but got {response.status_code}")
