@@ -31,16 +31,10 @@ pip install -r requirements.txt
 
 ## Ejecución de pruebas
 
-Para ejecutar todas las pruebas:
+Para ejecutar las pruebas:
 
 ```bash
-pytest -v
-```
-
-Para generar el reporte HTML:
-
-```bash
-pytest --html=reports/report.html
+pytest
 ```
 
 ## Estructura del proyecto
