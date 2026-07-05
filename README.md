@@ -1,6 +1,6 @@
 # Proyecto de Automatización de Pruebas API
 
-Este proyecto contiene pruebas automatizadas para validar la API de JSONPlaceholder, enfocadas en los endpoints de posts.
+Proyecto final para el curso Automation QA de TalentoTech, en el cual se realizan pruebas a la API de JSONPlaceholder.
 
 ## ¿Qué incluye?
 
